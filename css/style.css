@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(207, 11, 11);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.mi-boton {    
+    background-color: #1119b1; 
+    color: white;
+    transition:all 1s;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.mi-boton:hover {
+    background-color: #0fcac1;  
+    cursor: pointer;
+}
+/* MAX y MIN en CSS:
+  - min-width Define el tamaño MÍNIMO. El elemento no se achicará más de esto.
+  - max-width Define el tamaño MÁXIMO. El elemento no crecerá más de esto. */
+@media screen and (max-width: 768px) {
+    body {
+        background-color: rgb(173, 148, 6);
+        color:white;
+    }
+}
+/*1. Si usas @media queries (ej: @media (max-width: 600px) 
+            { body 
+             { background: red; } }),
+     el color cambia automáticamente según el ancho de la pantalla.
+  2. Si usas estados como :hover o :active, el color cambia al interactuar con el elemento 
+     (al pasar el mouse o hacer clic)/*
