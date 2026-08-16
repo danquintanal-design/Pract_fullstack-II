@@ -27,6 +27,4 @@ body {
 /*1. Si usas @media queries (ej: @media (max-width: 600px) 
             { body 
              { background: red; } }),
-     el color cambia automáticamente según el ancho de la pantalla.
-  2. Si usas estados como :hover o :active, el color cambia al interactuar con el elemento 
-     (al pasar el mouse o hacer clic)/*
+     el color cambia automáticamente según el ancho de la pantalla
